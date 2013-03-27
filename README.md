@@ -22,7 +22,7 @@ Handle asynchronous callback errors safely and easily
 // Before
 var getFileContentsUpperCased = function(path,next){
 	require('fs').readFile(path, function(err,data){
-		if(err)  return next(err)
+		if(err)  return next(err)  // annoying check
 		return next(null, data.toString().toUpperCase())
 	})
 }
@@ -42,7 +42,7 @@ var getFileContentsUpperCased = function(path,next){
 # Before
 getFileContentsUpperCased = (path,next) ->
 	require('fs').readFile path, (err,data) ->
-		return next(err)  if err
+		return next(err)  if err  # annoying check
 		return next(null, data.toString().toUpperCase())
 
 # After
