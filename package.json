@@ -1,6 +1,6 @@
 {
 	"name": "safecallback",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Handle callback errors safely and easily",
 	"homepage": "https://github.com/bevry/safecallback",
 	"keywords": [
