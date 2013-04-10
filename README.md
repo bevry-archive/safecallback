@@ -1,6 +1,12 @@
-# SafeCallback [![Build Status](https://secure.travis-ci.org/bevry/safecallback.png?branch=master)](http://travis-ci.org/bevry/safecallback)
+# Safe Callback
+
+[![Build Status](https://secure.travis-ci.org/bevry/safecallback.png?branch=master)](http://travis-ci.org/bevry/safecallback)
+[![NPM version](https://badge.fury.io/js/safecallback.png)](https://npmjs.org/package/safecallback)
+[![Flattr this project](https://raw.github.com/balupton/flattr-buttons/master/badge-89x18.gif)](http://flattr.com/thing/344188/balupton-on-Flattr)
 
 Handle asynchronous callback errors safely and easily
+
+
 
 ## Install
 
@@ -12,6 +18,7 @@ Handle asynchronous callback errors safely and easily
 ### Frontend
 
 1. [See Browserify](http://browserify.org/)
+
 
 
 ## Usage
@@ -53,8 +60,10 @@ getFileContentsUpperCased = (path,next) ->
 ```
 
 
+
 ## History
 You can discover the history inside the [History.md](https://github.com/bevry/safecallback/blob/master/History.md#files) file
+
 
 
 ## License
